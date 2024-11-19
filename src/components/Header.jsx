@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div> this is Header</div>
+    <div> this is Header TGA</div>
   );
 };
 
