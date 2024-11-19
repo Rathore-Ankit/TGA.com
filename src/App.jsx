@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/Home';
 
-function App() {
- 
-
+const App = () =>
+ {
   return (
     <>
-    <div className="text-2xl text-center mt-11 text-red-500">We are creating Tour And Travelling Website with Ankit</div>
+    <Router>
+      <Routes>
+        <Route path='/' element = {<Home/>}/>
+      </Routes>
+    </Router>
     </>
   )
 }
